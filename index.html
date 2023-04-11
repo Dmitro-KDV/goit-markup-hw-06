@@ -349,6 +349,19 @@
                     </li>
                 </ul>
             </div>
+            <form>
+                <h3 class="footer-title title">Subscribe</h3>
+                <div class="footer-form">
+                    <label>
+                        <input type="email" name="email" placeholder="E-mail"/>
+                    </label>
+                    <button type="submit" class="footer-btn text">Subscribe
+                        <svg class="footer-icon-form" width="24" height="24">
+                            <use href="./images/icons.svg#icon-Frame-3"></use>
+                        </svg>
+                    </button>
+                </div>
+            </form>
         </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -358,6 +371,50 @@
                     <use href="./images/icons.svg#icon-close"></use>
                 </svg>
             </button>
+            <h2 class="modal-title title">Leave your contacts and we will call you back</h2>
+            <form>
+                <div class="modal-label">
+                  <label>
+                    <h3 class="modal-label-title title">Name</h3>
+                    <div class="modal-input-wrap">
+                        <input type="text" name="username" class="modal-form-input">
+                        <svg class="modal-icon" width="18" height="18">
+                            <use href="./images/icons.svg#icon-person"></use>
+                        </svg>
+                    </div>
+                  </label>
+                  <label>
+                    <h3 class="modal-label-title title">Phone</h3>
+                    <div class="modal-input-wrap">
+                        <input type="tel" name="phone_number" class="modal-form-input">
+                        <svg class="modal-icon" width="18" height="24">
+                            <use href="./images/icons.svg#icon-phone"></use>
+                        </svg>
+                    </div>
+                  </label>
+                  <label>
+                    <h3 class="modal-label-title title">Email</h3>
+                    <div class="modal-input-wrap">
+                        <input type="email" name="email" class="modal-form-input">
+                        <svg class="modal-icon" width="18" height="24">
+                            <use href="./images/icons.svg#icon-email"></use>
+                        </svg>
+                    </div>
+                  </label>
+                  <label class="modal-textarea-wrap">
+                    <h3 class="modal-label-title title">Comment</h3>
+                    <textarea name="comment" rows="5" placeholder="Text input" class="modal-textarea"></textarea>
+                  </label>
+                  <label>
+                </div>
+                <div class="modal-checkbox">
+                    <input type="checkbox" name="privacy" value="policy">
+                    <p>I accept the terms and conditions of the 
+                        <a href="">Privacy Policy</a> 
+                    </p>
+                </div>
+                <button type="submit" class="modal-send-btn">Send</button>
+            </form>
         </div>
     </div>
     <script src="./JS/modal.js"></script>
